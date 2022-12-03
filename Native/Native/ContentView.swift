@@ -11,15 +11,7 @@ struct ContentView: View {
   var body: some View {
     ZStack {
       WallpaperView()
-
-      VStack {
-        Image(systemName: "globe")
-          .imageScale(.large)
-          .foregroundColor(.accentColor)
-
-        Text("Hello, world!")
-      }
-      .padding()
+      AvatarView()
     }
   }
 }

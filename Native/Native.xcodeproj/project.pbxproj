@@ -15,6 +15,7 @@
 		9F28402729349343005939EF /* NativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F28402629349343005939EF /* NativeUITests.swift */; };
 		9F28402929349343005939EF /* NativeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F28402829349343005939EF /* NativeUITestsLaunchTests.swift */; };
 		9F28403629349399005939EF /* WallpaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F28403529349399005939EF /* WallpaperView.swift */; };
+		9FD6F2392935FEB1001780C2 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F2382935FEB1001780C2 /* AvatarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9F28402629349343005939EF /* NativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeUITests.swift; sourceTree = "<group>"; };
 		9F28402829349343005939EF /* NativeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9F28403529349399005939EF /* WallpaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperView.swift; sourceTree = "<group>"; };
+		9FD6F2382935FEB1001780C2 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 			children = (
 				9F28400A29349341005939EF /* NativeApp.swift */,
 				9F28400C29349341005939EF /* ContentView.swift */,
+				9FD6F2382935FEB1001780C2 /* AvatarView.swift */,
+				9F28403529349399005939EF /* WallpaperView.swift */,
 				9F28400E29349342005939EF /* Assets.xcassets */,
 				9F28401029349342005939EF /* Native.entitlements */,
 				9F28401129349342005939EF /* Preview Content */,
-				9F28403529349399005939EF /* WallpaperView.swift */,
 			);
 			path = Native;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				9F28400D29349341005939EF /* ContentView.swift in Sources */,
 				9F28403629349399005939EF /* WallpaperView.swift in Sources */,
+				9FD6F2392935FEB1001780C2 /* AvatarView.swift in Sources */,
 				9F28400B29349341005939EF /* NativeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
